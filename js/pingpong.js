@@ -1,4 +1,4 @@
-export class Calculator {
+class Calculator {
   constructor(skinName) {
     this.skin = skinName;
   }
@@ -18,3 +18,5 @@ export class Calculator {
     return output;
   }
 }
+
+exports.calculatorModule = Calculator;
